@@ -1,3 +1,9 @@
+/****
+This are the test cases for fibonacci
+This basically opens the server and calls the REST functions 
+in a variety of ways, testing invalid input as well as valid input
+******/
+
 var express = require('express');
 var request = require('supertest');
 var chai = require('chai');
