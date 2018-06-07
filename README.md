@@ -16,6 +16,6 @@ npm run debug
 npm run test
 
 # API
-All calls to the Fibonacci api should look like http://localhost:3000/fibonacci/<number>[http://localhost:3000/fibonacci/]
-Where number is a postivie integer or zero
-The result will return the number of requested numbers in the sequence
+* All calls to the Fibonacci api should look like [http://localhost:3000/fibonacci/]<number>
+* Number is a positive integer or zero
+* The result will return the number of requested numbers in the sequence
