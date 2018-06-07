@@ -9,7 +9,7 @@ exports.doFib = function(req, res) {
 	res.send(reply);
 };
 
-// fibonacci function
+// fibonacci function with validation
 // input: n = number of fibonacci numbers to return
 function fibonacci(n) {
 	var rep = "";
@@ -27,11 +27,10 @@ function fibonacci(n) {
 		rep = n + " is not an integer";
 	}
 
-
 	return rep;
 }
 
-// iterative function to calculate fibonacci string
+// iterative function to create fibonacci string
 // input: n = number of fibonacci numbers to return
 // output: array of string numbers with a 
 function fibIter(n) {
