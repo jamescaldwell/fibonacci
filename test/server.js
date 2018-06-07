@@ -100,7 +100,7 @@ describe('Fibonacci application', function() {
 			})
 		});
 
-	it('should detect the sum fib(10) should be 88', function() {
+	it('should detect the sum fib(9) should be 88', function() {
 		request(app)
 			.get('/fibonacci/10')
 			.set('Content-type', 'text')
@@ -120,7 +120,7 @@ describe('Fibonacci application', function() {
 		});
 
 
-	it('should detect the sum fib(100) should be 573147844013817200000', function() {
+	it('should detect the sum fib(99) should be 573147844013817200000', function() {
 		request(app)
 			.get('/fibonacci/100')
 			.set('Content-type', 'text')

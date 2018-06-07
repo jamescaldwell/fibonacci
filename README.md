@@ -1,15 +1,21 @@
-# fibonacci
+# Fibonacci REST Service
 Node REST service for fibonacci numbers
-  this is a simple service to generate the sequence of fibonacci number using node.js
-  
-# to install npm libraries
+  This is a simple service to generate the sequence of fibonacci number using node.js
+  Download node.js from [https://nodejs.org/en/]
+
+# To install npm libraries
 npm install
 
-# to run the server
+# To run the server
 npm run start
 
-# to debug the server
+# To debug the server
 npm run debug
 
-# to execute unit tests
+# To execute unit tests
 npm run test
+
+# API
+All calls to the Fibonacci api should look like http://localhost:3000/fibonacci/<number>[http://localhost:3000/fibonacci/]
+Where number is a postivie integer or zero
+The result will return the number of requested numbers in the sequence
